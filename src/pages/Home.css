@@ -1,0 +1,29 @@
+/* reset body and html css */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+    padding: none;
+    background-image: url(https://norsesoundcreative.com/wp-content/uploads/2017/09/hero-image-feature-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: none;
+}
+
+.hero-image { 
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+}
