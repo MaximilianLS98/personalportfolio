@@ -6,7 +6,9 @@
     justify-content: center;
     min-height: 700px;
     padding: none;
-    background-image: url(https://norsesoundcreative.com/wp-content/uploads/2017/09/hero-image-feature-img.jpg);
+    background-image: 
+    linear-gradient(to bottom, rgba(85, 104, 210, 0.383), rgba(0, 0, 0, 0.842)),
+    url(https://images.unsplash.com/photo-1606247357835-d27fe83fc6a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhcnJ5JTIwbmlnaHR8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
     background-position: center;
 }
@@ -26,4 +28,8 @@
     height: auto;
     max-height: 100%;
     object-fit: cover;
+}
+
+.landing-content {
+    margin-top:25px;
 }
