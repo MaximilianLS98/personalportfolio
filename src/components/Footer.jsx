@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
     return (
         <footer>
-            <p>Footer</p>
+            <p>© 2021 Maximilian Lunde Skjønhaug</p>
         </footer>
     );
 }

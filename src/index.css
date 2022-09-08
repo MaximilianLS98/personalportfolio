@@ -9,8 +9,8 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   font-weight: 400;
-  color: #333;
-  background-color: #fff;
+  color: #fff;
+  background-color: rgb(0, 0, 0);
   margin: none;
   padding: none;
 }
@@ -45,6 +45,14 @@ h3 {
 }
 
 p {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  position:absolute;
+  bottom: 10px;
+  left: 10px;
   margin: 0;
   padding: 0;
 }
