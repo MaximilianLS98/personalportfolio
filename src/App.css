@@ -37,3 +37,17 @@
     transform: translateY(0px);
   }
 }
+
+.footerContainer {
+  display: flex;
+}
+
+.page-container {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+  padding: 20px;
+  flex: 1 0 auto;
+}
