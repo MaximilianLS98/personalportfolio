@@ -1,7 +1,7 @@
 # My Portfolio Website
 ## It's currently under construction
 
-It is built using React, Redux and NodeJS. 
+Built using React, Redux and NodeJS. 
 
 ## Deployed with Heroku
 Click [here](https://maxiportfolio.herokuapp.com/) for the deployed version!

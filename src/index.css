@@ -17,6 +17,21 @@ body {
   /*  */
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+}
+
+.fp-watermark {
+  display: none!important;
+}
+
+/* reset default link/a styles  */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+  opacity: 0.8;
 }
 
 code {

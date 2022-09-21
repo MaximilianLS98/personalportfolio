@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/fullpage.min.css" integrity="sha512-NGRhMiWY9pf5z8PLens7/u+LLwIPAu1dhJ7u9sHRWIo8TKrVbKiWlRdYRH3pVDCZA10zmobo+PBLGeLOREklBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -39,5 +40,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/fullpage.min.js"></script>
+    <script>
+      new fullpage('#fullpage', {
+        //options here
+        autoScrolling:true,
+        scrollHorizontally: true,
+        licenseKey: "OPEN-SOURCE-GPLV3-LICENSE", 
+        keyboardScrolling: true
+      });
+    </script>
   </body>
 </html>
