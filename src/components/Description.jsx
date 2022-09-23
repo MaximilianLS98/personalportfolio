@@ -9,7 +9,7 @@ export default function Description({ fullpageApi}) {
                 I am a full-stack developer with a passion for creating
                 beautiful and functional web applications. I have a
                 background in graphic design and have worked with
-                companies such as <a href="https://www.vegvesen.no/">Vegvesen</a> and <a href="https://www.vegvesen.no/">Norsk Hydro</a>.
+                companies such as <a href="https://www.vegvesen.no/">El Camino</a> and <a href="https://www.vegvesen.no/">JBS Sport</a>.
                 I am currently working as a full-stack consultant at <a href="https://www.salt.study">SALT</a>.
             </p>
             <motion.button

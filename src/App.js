@@ -18,7 +18,7 @@ function App() {
           <Route path="/counter" element={<CounterPage />} />
         </Routes>
       </Router>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

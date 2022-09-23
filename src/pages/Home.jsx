@@ -14,19 +14,15 @@ const Home = () => {
     const arrowMove = (e) => {
         switch (e.keyCode) {
             case 37:
-                console.log("left");
                 window.fullpage_api.moveSlideLeft();
                 break;
             case 38:
-                console.log("up");
                 window.fullpage_api.moveSectionUp();
                 break;
             case 39:
-                console.log("right");
                 window.fullpage_api.moveSlideRight();
                 break;
             case 40:
-                console.log("down");
                 window.fullpage_api.moveSectionDown();
                 break;
             default:
